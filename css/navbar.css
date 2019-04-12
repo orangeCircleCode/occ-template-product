@@ -34,8 +34,12 @@ p {
 	font-family: 'Montserrat', sans-serif;
 	position: relative;
 	top: 50%;
+
 	/* top: -28px; */
 	/* padding-bottom: 4%; */
+}
+#top-banner > div > div > a {
+	text-decoration: none;
 }
 #topnavbar {
 	margin: 0;
