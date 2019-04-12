@@ -1,7 +1,16 @@
 /* Top Carousel */
-
+#topcarousel > div.col-md-6.col-md-offset-3 {
+	background-color: cadetblue;
+}
+.carousel {
+	background-color: cadetblue;
+}
+#topcarousel > div.col-md-6.col-md-offset-3 > h1 {
+ margin-top: 0px;
+}
 .topcarousel .item {
 	height: 400px;
+
 }
 /* Change the Slider Image and Size Here */
 
@@ -45,7 +54,8 @@
 	padding-right: 3px;
 }
 .features img {
-	width: 45%;
+	width: 60%;
+	/* background-color: cadetblue; */
 }
 .features h3 {
 	color: #8C8C8C;
@@ -141,13 +151,12 @@ padding-bottom: 20px;
 font-family:'Open Sans', Helvetica, Arial, sans-serif;
 font-size: 35px;
 color: #515151;
-font-weight: bold;	
+font-weight: bold;
 }
-
 
 /* Smartphones (portrait and landscape) ----------- */
 
-@media only screen 
+@media only screen
 and (max-width: 480px) {
 
 	.introtext h1 {
@@ -198,8 +207,8 @@ and (max-width: 480px) {
 	}
 }
 
-@media only screen 
-and (min-width: 480px) 
+@media only screen
+and (min-width: 480px)
 and (max-width: 1024px) {
 
 	.carousel .item {
@@ -245,8 +254,8 @@ and (max-width: 1024px) {
 
 /* iPads (landscape) ----------- */
 
-@media only screen 
-and (min-width: 768px) and (max-width: 1024px) 
+@media only screen
+and (min-width: 768px) and (max-width: 1024px)
 and (orientation: landscape) {
 	.infodiv img {
 		width: 40%;
@@ -256,7 +265,7 @@ and (orientation: landscape) {
 
 /* Large screens ----------- */
 
-@media only screen 
+@media only screen
 and (min-width: 1824px) {
 
 	.infodiv img {
